@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import Head from "next/head";
 import Image from "next/image";
-import buildspaceLogo from "../assets/buildspace-logo.png";
+import buildspaceLogo from "../assets/catacolabs-logo.png";
 
 const Home = () => {
   const maxRetries = 20;
@@ -113,7 +113,7 @@ const Home = () => {
               Create your own Startup Logos. Make sure you use "startuplogo
               style" in the prompt.
             </h2>
-            <p>Ex: a photo of a fox in startuplogo style, vector art</p>
+            <p>Ex: a photo of a fox in startuplogo style, vector art (Huggingface server, may take up to 4min)</p>
           </div>
           <div className="prompt-container">
             <input
@@ -156,7 +156,7 @@ const Home = () => {
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <p>built by CatacoLabs</p>
           </div>
         </a>
       </div>
