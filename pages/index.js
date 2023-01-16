@@ -150,7 +150,7 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-avatar"
+          href="https://catacolabs.com"
           target="_blank"
           rel="noreferrer"
         >
