@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import buildspaceLogo from "../assets/catacolabs-logo.png";
 
 const Home = () => {
@@ -139,6 +140,19 @@ const Home = () => {
               </a>
             </div>
           </div>
+          <div className="flex justify-center">
+            <p>
+              <i>Like my work? Send me a Taco!</i>
+            </p>
+            <Link href="https://buymeacoffee.com/lucataco" target="_blank">
+              <Image
+                width="220"
+                height="60"
+                src="/bmac.png"
+                alt="Buy me a Coffee"
+              />
+            </Link>
+          </div>
         </div>
         {/* Add output container */}
         {img && (
@@ -156,7 +170,7 @@ const Home = () => {
         >
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>built by CatacoLabs</p>
+            <p>Built by CatacoLabs</p>
           </div>
         </a>
       </div>
